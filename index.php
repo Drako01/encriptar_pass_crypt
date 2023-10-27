@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
+    <div class="container ">
+        <div class="crypt">
+            <div class="col-lg-9 ">
                 <div class="form-group">
                     <img src="/logo.png" alt="">
                 </div>
@@ -36,7 +36,7 @@
                     $customSalt = '$2a$07$xxXXTuSaltPersonalXXXxxxx$'; // Cambialo por Tu sal personalizada || Shhhh es Secreto.!!!
                     $hashedPassword = crypt($password, $customSalt); // Encripta la contraseña con la sal personalizada
 
-                    echo "<br><div class='container'><label>Contraseña ingresada: </label>
+                    echo "<div class='container-pass'><label>Contraseña ingresada: </label>
                     <p>$password</p>";
                     echo "<label>Contraseña encriptada: </label><p>$hashedPassword</p></div>";
                 }
