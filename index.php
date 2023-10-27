@@ -1,3 +1,12 @@
+<?php
+// Encriptar Contraseña con Crypt de PHP
+// https://parzibyte.me/blog
+// Encripta una contraseña con la función crypt de PHP
+// La sal es opcional, pero se recomienda usarla
+// La sal es un texto que se agrega a la contraseña para hacerla más segura
+// La sal se agrega al inicio de la contraseña, y se escribe entre signos de pesos
+// La sal puede ser generada con la función password_hash
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
