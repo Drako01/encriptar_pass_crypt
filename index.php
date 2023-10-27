@@ -2,15 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Encriptar Contraseña con Sal Personalizada</title>
+    <title>Encriptar Contraseña con Crypt de PHP</title>
     <!-- Enlaza Bootstrap (cambia la URL según la versión de Bootstrap que estés usando) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
-                <h1 class="mt-5">Encriptar Contraseña</h1>
+                <div class="form-group">
+                    <img src="/logo.png" alt="">
+                </div>
+                <h1 class="mt-5">Encriptar Contraseña con Crypt de PHP</h1>
                 <form method="POST" class="mt-3">
                     <div class="form-group">                        
                         <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese una Contraseña">
